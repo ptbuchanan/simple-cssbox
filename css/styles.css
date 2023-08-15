@@ -1,0 +1,13 @@
+/* Everything is a box */
+div {
+    /* The space between different elements and occures outside
+    the border */
+    margin: 20px;
+    /* Border is the layer that goes betweent he padding and the     outside of the element.   */
+    border: 30px solid blue;
+    /* Padding allows you to add extra space to the element         without making the contant itself larger */
+    padding: 15px;
+    background-color: red;
+    height: 100px;
+    width: 200px;
+  }
