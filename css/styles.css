@@ -1,13 +1,32 @@
-/* Everything is a box */
-div {
-    /* The space between different elements and occures outside
-    the border */
-    margin: 20px;
-    /* Border is the layer that goes betweent he padding and the     outside of the element.   */
-    border: 30px solid blue;
-    /* Padding allows you to add extra space to the element         without making the contant itself larger */
-    padding: 15px;
-    background-color: red;
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    /* 
+    Static position mean's it's in it's normal state 
+    Relative position mean's there's a point of origin it will adjust too
+    Absolute will have it's taken out of the document and make it anchored.  
+    Aboluste will search for a parent that is static or relatviely
+    Fixed will stay wherever you put it in it's viewport.  
+    Then there's sticky.  Sticky will be stuck to whatever viewport when moving 
+    */
+    position: relative;
+    left: 250px;
+
+
+}
+
+#box2{
+    border: 1px solid;
     height: 100px;
-    width: 200px;
-  }
+    width: 100px;
+    background-color: tomato;
+
+    position: absolute;
+
+    top: 100px;
+    left: 100px;
+
+
+}
